@@ -1,8 +1,8 @@
 // quizSolver.js
 const puppeteer = require('puppeteer');
 const axios = require('axios');
-const llmHelper = require('./llmHelper');
-const dataProcessor = require('./dataProcessor');
+const llmHelper = require('../llmHelper');
+const dataProcessor = require('../dataProcessor');
 
 // Track 3-minute limit
 let quizStartTime = null;

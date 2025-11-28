@@ -7,7 +7,7 @@ console.log("Loaded ENV:", {
 });
 
 const express = require('express');
-const quizSolver = require('./LLM-Analysis-Quiz/quizSolver');
+const quizSolver = require('./quizSolver');
 
 const app = express();
 app.use(express.json({ limit: "2mb" }));

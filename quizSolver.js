@@ -173,9 +173,6 @@ async function solveQuiz(url, email, secret) {
   return result;
 }
 
-/* -------------------------------------------------------------
-   RECURSIVE QUIZ CHAIN
-------------------------------------------------------------- */
 async function solveQuizChain(initialUrl, email, secret) {
   quizStartTime = Date.now();
   let currentUrl = initialUrl;

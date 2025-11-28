@@ -1,0 +1,29 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanishka-coder0809/Quiz-generator-tds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kanishka-coder0809/Quiz-generator-tds/issues"
+  },
+  "homepage": "https://github.com/kanishka-coder0809/Quiz-generator-tds#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.37.0",
+    "puppeteer": "^24.31.0"
+  }
+}
